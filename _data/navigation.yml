@@ -1,0 +1,36 @@
+- title: Home
+  url: "/"
+
+- title: About Us
+  url: "/about"
+
+- title: Fire
+  url: "/fire"
+
+- title: Ems
+  url: "/ems"
+
+- title: Rescue
+  url: "/rescue"
+
+- title: Community
+  url: "#"
+  sublinks:
+    - title: Preparedness
+      url: /community/prep
+    - title: Events
+      url: /community/events
+    - title: Resources
+      url: /community/resources
+    - title: Newsletter
+      url: /community/newsletter
+
+- title: Get Involved
+  url: "/volunteer"
+
+- title: Donate
+  url: "/donate"
+
+- title: Contact Us
+  url: "/contact"
+

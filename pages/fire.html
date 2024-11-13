@@ -1,0 +1,50 @@
+---
+layout: default
+title: Fire
+permalink: /fire
+---
+<div class="row justify-content-center" id="hero">
+  <img src="/assets/images/volunteer/field.jpg" class="img-fluid" alt="group">
+</div>
+
+{% include _breadcrumb.html %}
+
+<div class="container-fluid">
+  <section class="mainText">
+    <div class="row justify-content-center">
+      <div class="col-xl-10 col-md-10 col-sm-11">
+        {% comment %} <h3>VOLUNTEER WITH US</h3> {% endcomment %}
+        <p>Mud Tavern Volunteer Fire and Rescue has 4 engines!</p>
+        <p>We have general business meetings every first and third Thursday of the month. Training is every second
+          and fourth Thursday of the month. Meetings and training start at 7:00 pm. If you are interested in learning
+          more, we invite you to stop by on Thursday night. Someone will be able to talk to you about what you can
+          expect as a volunteer.</p>
+        <div class="col-xl-1"></div>
+      </div>
+    </div>
+  </section>
+
+<section class="members">
+  <div class="row justify-content-center"><!--start member photos-->
+    {% comment %} <div class="col-12 col-xl-6"> {% endcomment %}
+    <div class="col-xl-10 col-md-10 col-sm-11">
+      <h3>SEE OUR TRUCKS</h3>
+    </div>
+    <div class="col-12 offset-xl-0 col-xl-4">&nbsp;</div>
+  </div>
+    <div class="container justify-content-center">
+      <div class="row  row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-2 row-cols-xl-2">
+        {% for equipment in site.data.equipment %}
+          {% include _equipment.html %}
+        {% endfor %}
+      </div>
+    </div>
+
+  <br /><br /><br /><br /><br />
+</section>
+
+
+
+
+
+</div>

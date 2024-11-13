@@ -1,0 +1,224 @@
+@charset "UTF-8";
+
+body {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+    color: rgba(46,46,46,1.00);
+}
+h1 {
+    margin: 0 0 1em 0;
+    font-size: 1.8em;
+    font-weight: 700;
+}
+h2 {
+    margin: 0 0 .5em 0;
+    font-size: 1.6em;
+    font-weight: 700;
+    line-height: 1.1em;
+}
+h3 {
+    margin: 0 0 .5em 0;
+    font-size: 1.4em;
+    font-weight: 700;
+	color: #AC1F2D;
+}
+h4 {
+    margin: 0 0 1.5em 0;
+    font-size: 1.2em;
+    font-weight: 700;
+    color: #AC1F2D;
+}
+p {
+    margin-top: 1em;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 1em;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: left;
+}
+a{
+    color: #000000;
+    text-decoration: none;
+}
+
+a:visted {
+    color: #AC1F2D;
+    text-decoration: none;
+}
+
+a:hover{
+	color: #AC1F2D;
+	text-decoration: none;
+}
+
+header {
+    background-color: rgba(204, 204, 204);
+    height: 32px;
+    text-align: right;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+header img {
+    width: 25px;
+    height: 25px;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    padding-left: 12px;
+}
+.jumbotron {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    height: 375px;
+    background-color: rgba(255,255,255,1.00);
+    max-width: 100%;
+}
+.jumbotron .img-fluid {
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 11px;
+    padding-top: 0px;
+    margin-top: -10px;
+}
+.navbar {
+    font-weight: bold;
+}
+.navbar-nav {
+    margin-left: auto;
+    margin-right: auto;
+}
+/* background color for navbar and dropdown menus */
+.navbar-custom, .navbar-custom .dropdown-menu {
+    background-color: #AC1F2D;
+    margin: auto;
+}
+
+
+/* text color for navbar and dropdown menus */
+.navbar-custom .navbar-text, 
+.navbar-custom .navbar-nav .nav-link,
+.navbar-custom .dropdown-item {
+    color: #FFFFFF;
+    float: none;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+/* background and text color for current page link and links on hover and focus */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link,
+.navbar-custom .nav-item:focus .nav-link,
+.navbar-custom .dropdown-item:focus {
+    color: rgba(0,0,0,1.00);
+    text-decoration: none;
+    background-color: none;
+}
+
+.navbar-custom .dropdown-item:hover{
+	color: rgba(97,166,14,1.00);
+	background-color: #000;
+}
+.dropdown-item.active {
+    color: #000000;
+    background-color: #B3B3B3;
+}
+
+
+/* border and text colors for menu icon on small screens */
+.custom-toggler.navbar-toggler {
+    color: #FFFFFF;
+    width: 140px;
+}
+
+/* hamburger icon - use same rgb values as previous rule for stroke */
+.custom-toggler .navbar-toggler-icon {
+	 background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255,1.00)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+nav .breadcrumb {
+    background-color: rgba(255,255,255,1.00);
+}
+nav .breadcrumb .breadcrumb-item  {
+    font-size: 8px;
+}
+
+.container-fluid {
+    max-width: 100%;
+    width: 100%;
+}
+.mainTip  {
+    background-color: #CCCCCC;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#hero {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#hero .img-fluid  {
+    max-width: 100%;
+}
+.card {
+    text-align: left;
+}
+.card p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.volunteerPhotos {
+    margin-top: 30px;
+    padding-bottom: 75px;
+}
+
+
+
+#mainfooter h4 {
+    text-align: left;
+}
+#mainfooter p {
+    text-align: left;
+}
+
+#mainfooter img {
+      text-align: center;
+  }
+footer {
+    background-color: rgba(209,209,209,1.00);
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+#mainfooter {
+    border-bottom: 1px solid #B9B9B9;
+    padding-bottom: 25px;
+}
+#copyright {
+    padding-top: 20px;
+    text-align: center;
+}
+#copyright p {
+    text-align: center;
+}
+footer img {
+    padding-left: 0px;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    padding-right: 10px;
+    width: 20px;
+}
+footer p {
+    font-size: 10px;
+}
+footer h4 {
+    font-size: 10px;
+}
+.mainText {
+    padding-bottom: 70px;
+}

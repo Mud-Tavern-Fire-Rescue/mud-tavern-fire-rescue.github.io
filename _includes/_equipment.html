@@ -1,0 +1,18 @@
+{% comment %} <div class="col-12 col-lg-8 col-md-10 col-xl-2"> {% endcomment %}
+{% comment %} <div class="col">
+  <div class="card"><img src="/assets/images/members/{{  member.image  }}" alt="" width="100%" /><br>
+  <h4>{{  member.name  }}</h4>
+  <p>{{  member.description  }}</p>
+  </div>
+  </div> {% endcomment %}
+<div class="card" style="width: 18rem; border: none;">
+  <div class="card" style="margin: 0.5em; border: none;">
+    <img class="card-img-top" src="/assets/images/equipment/{{  equipment.image  }}" alt="" width="100%" />
+  {% comment %} <br> {% endcomment %}
+    <div class="card-body">
+      <h4 class="card-title">{{  equipment.name  }}</h4>
+      <h6 class="card-subtitle mb-2 text-muted">Station {{  equipment.station  }}</h6>
+      <p class="card-text">{{  equipment.description  }}</p>
+    </div>
+  </div>
+</div>

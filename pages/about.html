@@ -1,0 +1,78 @@
+---
+layout: default
+title: About Us
+permalink: /about
+---
+  <div class="row justify-content-center" id="hero">
+    <img src="/assets/images/home/group.JPG" class="img-fluid" alt="group">
+  </div>
+
+{% include _breadcrumb.html %}
+
+  <br>
+  <div class="container-fluid"><!--container opening-->
+    <br>
+    <section class="mainText">
+      <div class="row justify-content-center">
+        <div class="col-xl-10 col-md-10 col-sm-11">
+          <h3>{{  site.data.about.title  |  upcase  }}&nbsp;</h3>
+          <p>{{  site.data.about.description  }}</p>
+        </div>
+      </div>
+    </section>
+
+    <br>
+    <hr>
+    <br>
+
+    <section class="members">
+
+
+      <div class="row justify-content-center"><!--start member photos-->
+        {% comment %} <div class="col-12 col-xl-6"> {% endcomment %}
+        <div class="col-xl-10 col-md-10 col-sm-11">
+          <h3>MEET OUR MEMBERS</h3>
+        </div>
+        <div class="col-12 offset-xl-0 col-xl-4">&nbsp;</div>
+      </div>
+      {% comment %} start member photos {% endcomment %}
+      {% comment %} <div class="row justify-content-center"> {% endcomment %}
+        <div class="container justify-content-center">
+          <div class="row  row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5">
+            {% for member in site.data.members %}
+              {% include _member.html %}
+            {% endfor %}
+          </div>
+        </div>
+      {% comment %} </div> {% endcomment %}
+
+
+      <div class="row justify-content-center"><!--start member photos-->
+        {% comment %} <div class="col-12 col-xl-6"> {% endcomment %}
+        <div class="col-xl-10 col-md-10 col-sm-11">
+          <h3>AUXILIARY PERSONNEL</h3>
+        </div>
+        <div class="col-12 offset-xl-0 col-xl-4">&nbsp;</div>
+      </div>
+      {% comment %} start member photos {% endcomment %}
+      {% comment %} <div class="row justify-content-center"> {% endcomment %}
+        <div class="container justify-content-center">
+          <div class="row  row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5">
+            {% for member in site.data.aux_members %}
+              {% include _member.html %}
+            {% endfor %}
+          </div>
+        </div>
+      {% comment %} </div> {% endcomment %}
+
+
+      {% comment %} TODO add "in memory section?" {% endcomment %}
+
+      <br /><br /><br /><br /><br />
+    </section>
+
+    <br>
+
+  </div><!--container closing-->
+
+  <br>

@@ -1,0 +1,47 @@
+---
+layout: default
+title: Community Events
+permalink: /community/events
+---
+<div class="row justify-content-center" id="hero">
+  <img src="/assets/images/contact/IMG_0660.jpg" class="img-fluid" alt="group">
+</div>
+
+{% include _breadcrumb.html %}
+
+<script>
+  function copyURI(evt) {
+      evt.preventDefault();
+      // navigator.clipboard.writeText(evt.target.getAttribute('href')).then(() => {
+      navigator.clipboard.writeText(document.getElementById("ical-clipboard-link").getAttribute('href')).then(() => {
+        /* clipboard successfully set */
+        document.getElementById("clipspan").innerHTML = "(link copied!)";
+      }, () => {
+        /* clipboard write failed */
+      });
+  }
+</script>
+
+  <div class="container-fluid">
+    <section class="mainText">
+      <div class="row justify-content-center">
+        <div class="col-xl-10 col-md-10 col-sm-11">
+          <h3>CALENDAR OF EVENTS</h3>
+          <p>See the embedded calendar below for all of our upcoming events!</p>
+
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-xl-10 col-md-10 col-sm-11">
+        <a href="#" target="_blank">
+          <img src="/assets/images/ImgResponsive_Placeholder.png" class="img-fluid" alt="calendar">
+          <h4 style="margin-top: 1em;">Add the <a id="ical-clipboard-link" href="#.ics" onclick="copyURI(event)" title="Click to copy!"><mark>iCal subscription URL</mark></a> to your own calendar! <span id="clipspan">(click to copy)</span>
+          </h4>
+        </a>
+        </div>
+      </div>
+      <div class="col-xl-6">&nbsp;</div>
+      <div class="col-xl-1">&nbsp;</div>
+    </div>
+  </section>
+</div>

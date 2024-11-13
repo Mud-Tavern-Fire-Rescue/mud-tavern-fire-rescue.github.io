@@ -1,0 +1,22 @@
+<section class="mainTip">
+  <div class="container-fluid">
+    <div class="row text-center">
+
+      <div class="offset-xl-0 col-xl-3 offset-lg-0 col-lg-3"></div>
+
+      {% comment %} <disv class="col-lg-6" style="padding: 0.3em;"> {% endcomment %}
+      <div class="col-lg-6">
+        {% assign currentMonth = site.time |  date: '%B' %}
+        {% comment %} TODO FIXME create github action to rebuild on the first of each month to automatically refresh {% endcomment %}
+        {% comment %} TODO consider switching to weekly safety tips? {% endcomment %}
+        {% comment %} https://talk.jekyllrb.com/t/display-posts-from-current-month-only/6911/2 {% endcomment %}
+        {% comment %} https://jekyll.one/pages/public/tools/toolbox/jekyll/date_time_formats/ {% endcomment %}
+        <h3 class="text-left">MONTHLY TIP FOR {{  currentMonth  |  upcase  }}</h3>
+        <p>{{  site.data.monthly_tips[currentMonth].tip   }}</p>
+      </div>
+
+      <div class="col-xl-3 col-lg-3">&nbsp;</div>
+
+    </div>
+  </div>
+</section>

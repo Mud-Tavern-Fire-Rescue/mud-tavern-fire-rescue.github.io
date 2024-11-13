@@ -1,0 +1,72 @@
+<nav class="navbar navbar-expand-lg navbar-custom sticky-top">
+  <a class="navbar-brand" href="/">
+    {% comment %} <img src="/assets/images/logos/firelogo.svg" alt="fire" width="50" class="img-fluid d-lg-none"> {% endcomment %}
+    <img src="/assets/images/logos/mtvfrLogo.svg" alt="fire" width="50" class="img-fluid d-lg-none" style="margin-left: 1em;">
+  </a>
+  <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse"
+    data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false"
+    aria-label="Toggle navigation">MENU<span class="navbar-toggler-icon"></span></button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+    {% comment %} TODO FIXME make dynamic based off of _data/navigation.yml {% endcomment %}
+
+    {% comment %} <!-- TODO FIXME create dynamic span --> {% endcomment %}
+    {% comment %} <li class="nav-item"> <a class="nav-link" href="{{ page.about.url }}">ABOUT US</a></li> {% endcomment %}
+    {% comment %} <li{% if link.url == page.url %} class="active"{% elsif page.homepage == true and link.url == '/' %} class="active"{% endif %}><a {% if link.class %}class="{{link.class}}"{% endif %} href="{{ domain }}{{ _baseurl }}{{ link.url }}"{% if link.url contains 'http' %} target="_blank"{% endif %}>{{ link.title | escape }}</a></li> {% endcomment %}
+    {% comment %} <li class="nav-item"> <a class="nav-link" href="{{ page.about.url }}"{% if page.callforaction.url contains 'http' %} target="_blank" {% endif %}>{{ page.callforaction.text }}>ABOUT US</a></li> {% endcomment %}
+    {% comment %} <ul class="navbar-nav mr-auto justify-content-center">
+      <li class="nav-item active"><a class="nav-link" href="/">HOME<span class="sr-only">(current)</span></a></li>
+      <li class="nav-item"> <a class="nav-link" href="/about">ABOUT US</a></li>
+      <li class="nav-item"> <a class="nav-link" href="/fire">FIRE</a></li>
+      <li class="nav-item"> <a class="nav-link" href="/ems">EMS</a></li>
+      <li class="nav-item"> <a class="nav-link" href="/rescue">RESCUE</a></li>
+      <li class="nav-item"> <a class="nav-link" href="/volunteer">VOLUNTEER</a></li>
+      <li class="nav-item"> <a class="nav-link" href="/donate">DONATE</a></li>
+      <li class="nav-item"> <a class="nav-link" href="/contact">CONTACT US</a></li>
+    </ul> {% endcomment %}
+
+    
+    {% comment %} This finds the current page so it can be highlighted. {% endcomment %}
+    {% for entry in site.data.navigation %}
+    {% capture fullurl %}{{ site.baseurl }}{{ entry.url }}{% endcapture %}
+      {% if fullurl == page.url %}
+        {% assign current_page = fullurl %}
+        {% break %}
+      {% elsif page.url contains fullurl %}
+        {% assign current_page = fullurl %}
+      {% endif %}
+    {% endfor %}
+    
+    {% comment %} Then we build the nav bar. {% endcomment %}
+    <ul class="navbar-nav mr-auto justify-content-center">
+      {% for entry in site.data.navigation %}
+        {% if entry.url == current_page %}
+          {% comment %} uses yellow, you can change to any other hexadecimal colour code. {% endcomment %}
+          {% comment %} {% assign current = ' style="background-color: black"' %} {% endcomment %}
+          {% assign current = ' active' %}
+          {% assign sronly = '<span class="sr-only">(current)</span>' %}
+        {% else %}
+          {% comment %} We have to declare it 'null' to ensure it doesn't propagate. {% endcomment %}
+          {% assign current = null %}
+        {% endif %}
+
+        {% assign sublinks = entry.sublinks %}
+        {% if sublinks %}
+        {% comment %} <li class="nav-item"> <a class="nav-link" href="/about">ABOUT US</a></li> {% endcomment %}
+        <li class="nav-item dropdown{{ current }}"><a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-expanded="false" href="{{ entry.url }}">{{ entry.title | upcase }}{{ sronly }}</a>
+          <ul>
+            <div class="dropdown-menu">
+              {% for sublink in sublinks %}
+              <li class="nav-item {{ current }}">
+                <a class="dropdown-item" href="{{ sublink.url }}">{{ sublink.title | upcase }}{{ sronly }}</a>
+              </li>
+              {% endfor %}
+            </div>
+          </ul>
+        </li>
+        {% else %}
+        <li class="nav-item {{ current }}"><a class="nav-link" href="{{ entry.url }}">{{ entry.title | upcase }}{{ sronly }}</a></li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+</nav>

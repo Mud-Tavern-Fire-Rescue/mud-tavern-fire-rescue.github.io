@@ -1,0 +1,15 @@
+- name: "Member 1"
+  position: "Board Member, Secretary"
+  description: "Member has been a member since 2018. They have 8 certifications including various levels of firefighting, technical rescue, EMS, officer, instructor, among others."
+  image: "headshot.jpeg"
+
+- name: "Member 2"
+  position: "Web Admin"
+  description: "Member has been a member since 2018. They have 8 certifications including various levels of firefighting, technical rescue, EMS, officer, instructor, among others."
+  image: "headshot.jpeg"
+
+- name: "Member 3"
+  position: "Bookkeeper"
+  description: "Member has been a member since 2018. They have 8 certifications including various levels of firefighting, technical rescue, EMS, officer, instructor, among others."
+  image: "headshot.jpeg"
+

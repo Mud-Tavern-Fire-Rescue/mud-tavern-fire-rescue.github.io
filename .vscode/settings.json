@@ -1,0 +1,7 @@
+{
+    "files.defaultLanguage": "liquid",
+    "workbench.editor.preferHistoryBasedLanguageDetection": true,
+    "files.associations": {
+        "*.html": "liquid"
+    }
+}

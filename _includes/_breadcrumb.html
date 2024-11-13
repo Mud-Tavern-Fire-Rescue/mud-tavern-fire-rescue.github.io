@@ -1,0 +1,18 @@
+{% comment %} 
+{% for entry in site.data.navigation %}
+{% capture fullurl %}{{ site.baseurl }}{{ entry.url }}{% endcapture %}
+  {% if fullurl == page.url %}
+    {% assign current_page = fullurl %}
+    {% break %}
+  {% elsif page.url contains fullurl %}
+    {% assign current_page = fullurl %}
+  {% endif %}
+{% endfor %}
+ {% endcomment %}
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="/">HOME</a></li>
+    <li class="breadcrumb-item active" aria-current="page">{{  page.title | upcase   }}</li>
+  </ol>
+</nav>

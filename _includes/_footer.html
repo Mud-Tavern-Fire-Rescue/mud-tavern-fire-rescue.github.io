@@ -1,0 +1,67 @@
+<footer>
+  <div class="container-fluid">
+  <div class="row justify-content-center align-content-center" id="mainfooter">
+    <div class="col-md-3">
+      <h4>GET IN TOUCH WITH US</h4>
+      <p>
+        <i class="material-icons" style="font-size: 1.2em">drafts</i>&nbsp;
+        <a href="mailto: contact@mudtavernfire.org" style="font-weight: normal;">contact(at)mudtavernfire(dot)org</a>&nbsp; 
+        {% comment %} TODO FIXME [ (at)->@ and (dot)->. ]? {% endcomment %}
+        <br>
+        <i class="material-icons" style="font-size: 1.2em">call</i>&nbsp; <mark>DIAL 911</mark> IN EMERGENCY
+      </p>
+      <br>
+      <h4>FOLLOW US</h4>
+      <a href="https://www.facebook.com/mudtavernfire" target="_blank">
+        <img src="/assets/images/social_icons/facebook.png" alt="facebook">
+      </a>
+      <a href="https://www.instagram.com/mudtavernfire/" target="_blank">
+        <img src="/assets/images/social_icons/instagram.png" alt="instagram">
+      </a>
+      {% comment %} TODO FIXME - ADD NEWSLETTER SIGNUP LINK {% endcomment %}
+      <br/>
+      <br/>
+    </div>
+
+    <div class="col-md-3">
+      <h4 class="text-center">WHEN THINGS GO WRONG, WE GET TO WORK!</h4>
+      <p>Mud Tavern Volunteer Fire and Rescue is committed to providing the best service to our community.</p>
+      <p>All content, including, but not limited to logos, images, and text, except as specifically noted is property
+        of Mud Tavern Volunteer Fire and Rescue and is protected by copyright laws. If you would like to use any
+        content on our website, please contact us for permission.</p>
+    </div>
+
+    <div class="col-md-3">
+      {% comment %} <h4 class="text-center">LINKS</h4> {% endcomment %}
+      <p class="text-center" style="margin-top: 0em;">
+        <!-- TODO ADD DYNAMIC -->
+        {% comment %} <a href="/" title="home" target="_parent">HOME</a><br>
+        <a href="/about" title="about us" target="_parent">ABOUT US</a>
+        <br> <a href="/fire" title="fire" target="_parent">FIRE</a>
+        <br><a href="/ems" title="ems" target="_parent">EMS</a>
+        <br><a href="/rescue" title="rescue" target="_parent">RESCUE</a>
+        <br><a href="/volunteer" title="volunteer" target="_parent">VOLUNTEER</a>
+        <br><a href="/donate" title="donate" target="_parent">DONATE</a><br>
+        <a href="/contact" title="contact us" target="_parent">CONTACT US</a><br> {% endcomment %}
+        
+        {% for entry in site.data.navigation %}
+          {% if entry.sublinks %}
+            {% for sublink in entry.sublinks %}
+              <a title="{{ entry.title | downcase }}-{{ sublink.title | downcase }}" target="_parent" href="{{ sublink.url }}">{{ entry.title | upcase }} {{ sublink.title | upcase }}</a><br>
+            {% endfor %}
+          {% else %}
+          <a title="{{ entry.title | downcase }}" target="_parent" href="{{ entry.url }}">{{ entry.title | upcase }}</a><br/>
+          {% endif %}
+      {% endfor %}
+
+      </p>
+    </div>
+    </div>
+
+  </div>
+  <div class="row justify-content-center align-content-center" id="copyright">
+    <div class="col-xl-8">
+      <p>© 2024 Mud Tavern Volunteer Fire and Rescue | 100% Volunteer Fire Department | ALL RIGHTS RESERVED</p>
+    </div>
+  </div>
+</footer>
