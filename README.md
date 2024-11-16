@@ -44,3 +44,4 @@ Landing Page for Mud Tavern Fire & Rescue (https://mudtavernfire.org | https://m
   - switch from monthly to weekly safety tips? (12 -> 52)
   - more formal roadmap?
   - site search..?
+  - clean up code/remove old comments
