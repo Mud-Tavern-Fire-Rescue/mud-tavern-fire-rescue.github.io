@@ -42,5 +42,5 @@ Landing Page for Mud Tavern Fire & Rescue (https://mudtavernfire.org | https://m
   - simplify and reduce redundant CSS
   - update bootstrap version
   - switch from monthly to weekly safety tips? (12 -> 52)
-  - more formal roadmap
+  - more formal roadmap?
   - site search..?
