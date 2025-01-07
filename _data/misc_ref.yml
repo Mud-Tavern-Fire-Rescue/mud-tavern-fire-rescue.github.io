@@ -1,0 +1,26 @@
+community:
+  events:
+    ical_link: "#.ics"
+
+# image base path (leading slash, no trailing slash)
+# img: "/assets/images"  # TODO REMOVE
+
+about:
+  title: "About Our Department"
+  description: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat"
+
+donate:
+  text-1: Mud Tavern Volunteer Fire and Rescue is 100% volunteer and we appreciate your donations!
+  text-2: Visit our BetterWorld page to donate online!
+  link: "https://mtvfr.betterworld.org/donate"
+  image: campaigndonate.png
+
+footer:
+  title: "WHEN THINGS GO WRONG, WE GET TO WORK!"
+  disclaimer: "
+      Mud Tavern Volunteer Fire and Rescue is committed to providing the best service to our community. 
+      <br><br>
+      All content, including, but not limited to logos, images, and text, except as specifically noted is property of Mud Tavern Volunteer Fire and Rescue and is protected by copyright laws. If you would like to use any content on our website, please contact us for permission.
+      "
+  copyright: "© 2024 Mud Tavern Volunteer Fire and Rescue | 100% Volunteer Fire Department | ALL RIGHTS RESERVED"
+

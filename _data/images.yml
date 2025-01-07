@@ -1,0 +1,65 @@
+# path should have no leading slash, and should not include the image base path
+#   image base path is stored in misc_ref.yml and is probably set to "/assets/images"
+#   the path used here should be the filename or directory path with filename from inside "/assets/images"
+#   alt is short for alternate text, which may contain a short description of the image. Avoid colons, quotes, and brackets here (: ' " < >)
+
+header_logo: 
+  path: 
+  alt: 
+
+homepage_highlight: 
+  path: 
+  alt: 
+
+about_us: 
+  path: 
+  alt: 
+
+fire: 
+  path: volunteer/field.jpg
+  alt: fireline
+
+ems: 
+  path: 
+  alt: 
+
+rescue: 
+  path: 
+  alt: 
+
+community_preparedness: 
+  path: 
+  alt: 
+
+community_events: 
+  path: 
+  alt: 
+
+community_resources: 
+  path: 
+  alt: 
+
+community_newsletter: 
+  path: 
+  alt: 
+
+volunteer_main: 
+  path: 
+  alt: 
+volunteer_grid: 
+  paths:
+    - "volunteer/photos/0E17F8DE-21A6-4407-B36B-0C85C2D79A8C.jpg"
+    - "volunteer/photos/IMG_3977.jpeg"
+    - "volunteer/photos/IMG_6182.JPG"
+    - "volunteer/photos/IMG_7087.jpeg"
+    - "volunteer/photos/IMG_7092.jpeg"
+    - "volunteer/photos/IMG_7451.JPG"
+
+donate: 
+  path: 
+  alt: 
+
+contact: 
+  path: 
+  alt: 
+

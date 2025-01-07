@@ -3,27 +3,28 @@ Landing Page for Mud Tavern Fire & Rescue (https://mudtavernfire.org | https://m
 
 ### Todo
 - Dynamic information migration
-  - [ ] Homepage Highlight
   - [ ] additional groups on "about us"
-  - [ ] Fire description
-  - [ ] EMS description
-  - [ ] Rescue description
   - [ ] Community- preparedness- description and info
   - [ ] Community- events- description and info
   - [ ] Community- resources- description and info
   - [ ] Community- newsletter- description and info
+  - [ ] get in touch section
+  - [ ] social links list (footer and header bar)
+  - [ ] add newsletter to social links list
+  - [ ] images/img src
+  - [ ] dynamic information with newlines (`<br>`) into multiple paragraphs (see [link](https://cloudcannon.com/tutorials/jekyll-tutorial/introduction-to-front-matter-and-yaml/#:~:text=To%20indicate%20a%20new%20line,two%20spaces%20at%20the%20end.))
+- Information completion and refining
+  - [ ] Homepage Highlight
+  - [ ] Monthly tips
+  - [ ] About Us description
+  - [ ] Fire description
+  - [ ] EMS description
+  - [ ] Rescue description
   - [ ] Get Involved/Volunteer page description
   - [ ] Get Involved/Volunteer page list of pics
   - [ ] donate info
   - [ ] footer paragraph
   - [ ] footer disclaimer/copyright
-  - [ ] get in touch section
-  - [ ] social links list (footer and header bar)
-  - [ ] add newsletter to social links list
-- Information completion and refining
-  - [ ] Monthly tips
-  - [ ] About Us description
-  - [ ] Fire description
   - [ ] Apparatus information
   - [ ] EMS page, "equipment we use" (any liability..?)
   - [ ] Rescue page and rescue gear/equipment

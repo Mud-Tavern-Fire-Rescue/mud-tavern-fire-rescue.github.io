@@ -4,7 +4,7 @@ title: Fire
 permalink: /fire
 ---
 <div class="row justify-content-center" id="hero">
-  <img src="/assets/images/volunteer/field.jpg" class="img-fluid" alt="group">
+  <img src="/assets/images/{{ site.data.images.fire.path }}" class="img-fluid" alt="{{ site.data.images.fire.alt }}">
 </div>
 
 {% include _breadcrumb.html %}
@@ -14,11 +14,7 @@ permalink: /fire
     <div class="row justify-content-center">
       <div class="col-xl-10 col-md-10 col-sm-11">
         {% comment %} <h3>VOLUNTEER WITH US</h3> {% endcomment %}
-        <p>Mud Tavern Volunteer Fire and Rescue has 4 engines!</p>
-        <p>We have general business meetings every first and third Thursday of the month. Training is every second
-          and fourth Thursday of the month. Meetings and training start at 7:00 pm. If you are interested in learning
-          more, we invite you to stop by on Thursday night. Someone will be able to talk to you about what you can
-          expect as a volunteer.</p>
+        <p>{{  site.data.fire  }}</p>
         <div class="col-xl-1"></div>
       </div>
     </div>
@@ -28,7 +24,7 @@ permalink: /fire
   <div class="row justify-content-center"><!--start member photos-->
     {% comment %} <div class="col-12 col-xl-6"> {% endcomment %}
     <div class="col-xl-10 col-md-10 col-sm-11">
-      <h3>SEE OUR TRUCKS</h3>
+      <h3>OUR FIRE APPARATUS</h3>
     </div>
     <div class="col-12 offset-xl-0 col-xl-4">&nbsp;</div>
   </div>

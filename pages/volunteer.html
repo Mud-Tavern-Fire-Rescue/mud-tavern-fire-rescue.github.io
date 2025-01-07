@@ -14,19 +14,7 @@ permalink: /volunteer
     <div class="row justify-content-center">
       <div class="col-xl-10 col-md-10 col-sm-11">
         <h3>VOLUNTEER WITH US</h3>
-        <p>Mud Tavern Volunteer Fire and Rescue is always open to volunteers! Not all volunteers are firefighters, but
-          if that's what you are interested in, we will train you to be one of the best. There are many different roles
-          in a fire department and we always need help! If you have an interest in serving your community, please get in
-          touch with us today!</p>
-        <p>We have general business meetings every first and third Thursday of the month. Training is every second
-          and fourth Thursday of the month. Meetings and training start at 7:00 pm. If you are interested in learning
-          more, we invite you to stop by on Thursday night. Someone will be able to talk to you about what you can
-          expect as a volunteer.</p>
-        <div class="col-xl-1">&nbsp;</div>
-        <div class="col-xl-1">&nbsp;</div>
-        <p>Click the link below to download an application, or go to the <a href="/contact.html">'Contact Us'</a> page and
-          fill out the form. Please return the application in person or to the email listed at the top of the
-          application. As soon as we receive, someone will contact you to for an interview.</p>
+        <p>{{  site.data.volunteer  }}</p>
         <br>
         <div class="row justify-content-center">
           <a href="/assets/images/volunteer/MTVFR_application.pdf" target="_blank">
@@ -47,10 +35,15 @@ permalink: /volunteer
         <div class="row photos">
            {% comment %} row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5"> {% endcomment %}
           {% comment %} <div class="row  row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5"> {% endcomment %}
+          {% for img in site.data.images.volunteer_grid.paths %}
+            <div class="col-sm-6 col-md-4 col-lg-4 item col-xl-4"><a href="/assets/images/{{  img  }}"
+                data-lightbox="photos"><img class="img-fluid" src="/assets/images/{{  img  }}"></a>
+            </div>
+          {% endfor %}
 
-          <div class="col-sm-6 col-md-4 col-lg-4 item col-xl-4"><a
-              href="/assets/images/volunteer/photos/0E17F8DE-21A6-4407-B36B-0C85C2D79A8C.jpg" data-lightbox="photos"><img
-                class="img-fluid" src="/assets/images/volunteer/photos/0E17F8DE-21A6-4407-B36B-0C85C2D79A8C.jpg" alt="1"></a>
+    
+          {% comment %} <div class="col-sm-6 col-md-4 col-lg-4 item col-xl-4"><a href="/assets/images/volunteer/photos/0E17F8DE-21A6-4407-B36B-0C85C2D79A8C.jpg"
+              data-lightbox="photos"><img class="img-fluid" src="/assets/images/volunteer/photos/0E17F8DE-21A6-4407-B36B-0C85C2D79A8C.jpg" alt="1"></a>
           </div>
           <div class="col-sm-6 col-md-4 col-lg-4 item col-xl-4"><a href="/assets/images/volunteer/photos/IMG_3977.jpeg"
               data-lightbox="photos"><img class="img-fluid" src="/assets/images/volunteer/photos/IMG_3977.jpeg" alt="2"></a>
@@ -66,7 +59,7 @@ permalink: /volunteer
           </div>
           <div class="col-sm-6 col-md-4 col-lg-4 item col-xl-4"><a href="/assets/images/volunteer/photos/IMG_7451.JPG"
               data-lightbox="photos"><img class="img-fluid" src="/assets/images/volunteer/photos/IMG_7451.JPG" alt="6"></a>
-          </div>
+          </div> {% endcomment %}
         </div>
       </div>
     </div>

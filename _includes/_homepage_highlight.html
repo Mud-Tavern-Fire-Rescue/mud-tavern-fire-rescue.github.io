@@ -5,15 +5,11 @@
     <div class="col-xl-2 col-lg-1 col-md-2"></div>
     <div class="col-xl-8 col-lg-10 col-md-8">
       <div class="card">
-        <img
-          class="card-img-top"
-          src="assets/images/home/group.JPG"
-          alt="Card image cap">
+        <img class="card-img-top" src="{{  site.data.homepage_highlight.image_path  }}"
+             alt="{{  site.data.homepage_highlight.image_alternate_text  }}">
         <div class="card-body text-center">
-          <h4 class="card-title text-center">Some of the Mud Tavern Volunteer Members at International Firefighters     
-          Day</h4>
-          <p class="card-text">Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh     
-          euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+          <h4 class="card-title text-center">{{  site.data.homepage_highlight.title  }}</h4>
+          <p class="card-text">{{  site.data.homepage_highlight.description  }}</p>
           <br>
           <a href="/about" class="btn btn-primary">FIND OUT MORE ABOUT US</a>
         </div>

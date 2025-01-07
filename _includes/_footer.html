@@ -25,11 +25,12 @@
     </div>
 
     <div class="col-md-3">
-      <h4 class="text-center">WHEN THINGS GO WRONG, WE GET TO WORK!</h4>
-      <p>Mud Tavern Volunteer Fire and Rescue is committed to providing the best service to our community.</p>
+      <h4 class="text-center">{{ site.data.misc_ref.footer.title }}</h4>
+      {% comment %} <p>Mud Tavern Volunteer Fire and Rescue is committed to providing the best service to our community.</p>
       <p>All content, including, but not limited to logos, images, and text, except as specifically noted is property
         of Mud Tavern Volunteer Fire and Rescue and is protected by copyright laws. If you would like to use any
-        content on our website, please contact us for permission.</p>
+        content on our website, please contact us for permission.</p> {% endcomment %}
+      <p>{{ site.data.misc_ref.footer.disclaimer }}</p>
     </div>
 
     <div class="col-md-3">
@@ -62,7 +63,8 @@
   </div>
   <div class="row justify-content-center align-content-center" id="copyright">
     <div class="col-xl-8">
-      <p>© 2024 Mud Tavern Volunteer Fire and Rescue | 100% Volunteer Fire Department | ALL RIGHTS RESERVED</p>
+      {% comment %} <p>© 2024 Mud Tavern Volunteer Fire and Rescue | 100% Volunteer Fire Department | ALL RIGHTS RESERVED</p> {% endcomment %}
+      <p>{{ site.data.misc_ref.footer.copyright }}</p>
     </div>
   </div>
 </footer>
