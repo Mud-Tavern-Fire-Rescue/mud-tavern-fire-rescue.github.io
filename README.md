@@ -21,6 +21,7 @@ Landing Page for Mud Tavern Fire & Rescue (https://mudtavernfire.org | https://m
   - [ ] social links list (footer and header bar)
   - [ ] add newsletter to social links list
 - Information completion and refining
+  - [ ] Monthly tips
   - [ ] About Us description
   - [ ] Fire description
   - [ ] Apparatus information
@@ -36,6 +37,9 @@ Landing Page for Mud Tavern Fire & Rescue (https://mudtavernfire.org | https://m
   - diversify pictures
   - change email (remove "(at)" and "(dot)")?
   - add station phone? probably not?
+  - add social media feed
+  - add header that would have a message similar to the station signs?
+  - link public use community resource map when completed (stations, coverage area, storm shelters, etc.) with disclaimer
   - fix nav bar current page highlighting
   - donate -> iframe
   - button change transition speed
