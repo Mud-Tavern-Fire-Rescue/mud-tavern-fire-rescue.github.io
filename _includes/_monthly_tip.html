@@ -11,7 +11,7 @@
         {% comment %} TODO consider switching to weekly safety tips? {% endcomment %}
         {% comment %} https://talk.jekyllrb.com/t/display-posts-from-current-month-only/6911/2 {% endcomment %}
         {% comment %} https://jekyll.one/pages/public/tools/toolbox/jekyll/date_time_formats/ {% endcomment %}
-        <h3 class="text-left">MONTHLY TIP FOR {{  currentMonth  |  upcase  }}</h3>
+        <h3 class="text-left">MONTHLY TIP FOR {{  currentMonth  |  upcase  }}: {{  site.data.monthly_tips[currentMonth].title   }}</h3>
         <p>{{  site.data.monthly_tips[currentMonth].tip   }}</p>
       </div>
 
