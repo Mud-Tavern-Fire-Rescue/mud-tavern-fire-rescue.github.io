@@ -7,17 +7,21 @@
 
 
   <body>
-    {% include _header.html %}
 
-    {% include _header_logo_large.html %}
-
-    {% include _navigation.html %}
-
-    {{  content  }}
-
-    {% include _footer.html %}
-
-    {% include _footer_scripts.html %}
+    <div class="container-fluid p-0" style="overflow-x: hidden">
+    {% comment %} <div class="container-fluid p-0" "> {% endcomment %}
+      {% include _header.html %}
+      
+      {% include _header_logo_large.html %}
+        
+      {% include _navigation.html %}
+    
+      {{  content  }}
+  
+      {% include _footer.html %}
+  
+      {% include _footer_scripts.html %}
+    </div>
 
   </body>
 
