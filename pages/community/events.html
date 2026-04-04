@@ -32,11 +32,16 @@ permalink: /community/events
     </div>
     <div class="row justify-content-center">
       <div class="col-xl-10 col-md-10 col-sm-11">
-      <a href="#" target="_blank">
-        <img src="/assets/images/ImgResponsive_Placeholder.png" class="img-fluid" alt="calendar">
+      {% comment %} <a href="#" target="_blank">
+        <!-- <img src="/assets/images/ImgResponsive_Placeholder.png" class="img-fluid" alt="calendar"> -->
         <h4 style="margin-top: 1em;">Add the <a id="ical-clipboard-link" href="{{  site.data.misc_ref.community.events.ical_link  }}" onclick="copyURI(event)" title="Click to copy!"><mark>iCal subscription URL</mark></a> to your own calendar! <span id="clipspan">(click to copy)</span>
         </h4>
-      </a>
+      </a> {% endcomment %}
+      </div>
+      <div class="col-xl-12">
+        <iframe
+          src="{{ site.data.misc_ref.community.events.iframe_url }}"
+          width="100%" height="1500" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
       </div>
     </div>
     <div class="col-xl-6">&nbsp;</div>

@@ -1,6 +1,7 @@
 community:
   events:
     ical_link: "#.ics"
+    iframe_url: "https://outlook.office365.com/owa/calendar/747a869b4e9a4f6db6ca7e4a32ef3e4a@mudtavernfire.org/0ec6194be29d4fa482e50a59f7fdf6e68016388698330492153/calendar.html"
 
 # image base path (leading slash, no trailing slash)
 # img: "/assets/images"  # TODO REMOVE
