@@ -28,23 +28,20 @@ permalink: /about
     <section class="members">
 
 
-      <div class="row justify-content-center"><!--start member photos-->
-        {% comment %} <div class="col-12 col-xl-6"> {% endcomment %}
+      <div class="row justify-content-center">
         <div class="col-xl-10 col-md-10 col-sm-11">
-          <h3>DEPARTMENT LEADERSHIP</h3>
+          {% comment %} <h3>DEPARTMENT LEADERSHIP</h3> {% endcomment %}
         </div>
         <div class="col-12 offset-xl-0 col-xl-4">&nbsp;</div>
       </div>
-      {% comment %} start member photos {% endcomment %}
-      {% comment %} <div class="row justify-content-center"> {% endcomment %}
         <div class="container justify-content-center">
           <div class="row  row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5">
-            {% for member in site.data.members %}
-              {% include _member.html %}
-            {% endfor %}
+            {% comment %} {% for member in site.data.members %} {% endcomment %}
+              {% comment %} {% include _member.html %} {% endcomment %}
+            {% comment %} {% endfor %} {% endcomment %}
           </div>
         </div>
-      {% comment %} </div> {% endcomment %}
+
 
 
       {% comment %} <div class="row justify-content-center">
