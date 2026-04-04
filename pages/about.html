@@ -31,7 +31,7 @@ permalink: /about
       <div class="row justify-content-center"><!--start member photos-->
         {% comment %} <div class="col-12 col-xl-6"> {% endcomment %}
         <div class="col-xl-10 col-md-10 col-sm-11">
-          <h3>MEET OUR MEMBERS</h3>
+          <h3>DEPARTMENT LEADERSHIP</h3>
         </div>
         <div class="col-12 offset-xl-0 col-xl-4">&nbsp;</div>
       </div>
@@ -47,23 +47,19 @@ permalink: /about
       {% comment %} </div> {% endcomment %}
 
 
-      <div class="row justify-content-center"><!--start member photos-->
-        {% comment %} <div class="col-12 col-xl-6"> {% endcomment %}
+      {% comment %} <div class="row justify-content-center">
         <div class="col-xl-10 col-md-10 col-sm-11">
           <h3>AUXILIARY PERSONNEL</h3>
         </div>
         <div class="col-12 offset-xl-0 col-xl-4">&nbsp;</div>
       </div>
-      {% comment %} start member photos {% endcomment %}
-      {% comment %} <div class="row justify-content-center"> {% endcomment %}
-        <div class="container justify-content-center">
-          <div class="row  row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5">
-            {% for member in site.data.aux_members %}
-              {% include _member.html %}
-            {% endfor %}
-          </div>
+      <div class="container justify-content-center">
+        <div class="row  row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5">
+          {% for member in site.data.aux_members %}
+            {% include _member.html %}
+          {% endfor %}
         </div>
-      {% comment %} </div> {% endcomment %}
+      </div> {% endcomment %}
 
 
       {% comment %} TODO add "in memory section?" {% endcomment %}

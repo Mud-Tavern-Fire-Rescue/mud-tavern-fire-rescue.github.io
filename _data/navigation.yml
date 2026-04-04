@@ -4,26 +4,31 @@
 - title: About Us
   url: "/about"
 
-- title: Fire
-  url: "/fire"
+# - title: Fire
+#   url: "/fire"
 
-- title: Ems
-  url: "/ems"
+# - title: Ems
+#   url: "/ems"
 
-- title: Rescue
-  url: "/rescue"
+# - title: Rescue
+#   url: "/rescue"
+
 
 - title: Community
   url: "#"
   sublinks:
     - title: Preparedness
       url: /community/prep
+
     - title: Events
       url: /community/events
-    - title: Resources
-      url: /community/resources
+
+    # - title: Resources
+    #   url: /community/resources
+
     - title: Newsletter
       url: /community/newsletter
+
 
 - title: Get Involved
   url: "/volunteer"

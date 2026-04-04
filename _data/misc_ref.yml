@@ -7,7 +7,12 @@ community:
 
 about:
   title: "About Our Department"
-  description: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat"
+  description: "Mud Tavern Volunteer Fire and Rescue is committed to creating a strong and inclusive community that is well prepared for emergencies and disasters. Since its inception in 1975, the department has grown significantly, enabling it to put greater emphasis on community engagement and outreach. Throughout the year, our department proudly hosts a variety of events for all ages to build connections and ensure the people we serve feel valued. Holding these events allows us to further highlight our commitment and dedication to the inhabitants of our district."
+# 
+
+contact_iframe_url: "https://docs.google.com/forms/d/e/1FAIpQLScTRcksYj9GZpkmZsynPSWYT2RC8EDsi3LT71dLcHAEdlyfOA/viewform?embedded=true"
+
+newsletter_iframe_url: "https://us8.campaign-archive.com/home/?u=4cccfebef0aadaff4a086e0bd&id=6549489f71"
 
 donate:
   text-1: Mud Tavern Volunteer Fire and Rescue is 100% volunteer and we appreciate your donations!

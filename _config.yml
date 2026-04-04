@@ -46,6 +46,7 @@ exclude:
   - lindsay-mtvfr/
   - feeling-responsive/
   - docker-compose.yml
+  - README.md
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/

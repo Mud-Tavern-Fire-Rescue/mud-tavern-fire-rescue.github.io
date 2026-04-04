@@ -1,0 +1,24 @@
+paragraph_one: "Our department's Community Preparedness Service focuses on educating and equipping residents, businesses, and organizations with the knowledge and resources to prevent, respond to, and recover from emergencies. Our services aim to enhance public safety and resilience through the various programs and initiatives, which include:"
+paragraph_two: "We want to help build a safer, more resilient community by ensuring our community members and groups are prepared to handle emergencies effectively. If you would like to have any of these services for your group or your home, please contact us!"
+
+services:
+  - title: Fire Prevention Education
+    description: Providing information on fire hazards, smoke alarms, fire extinguishers, and escape plans to minimize risks. 
+  - title: Emergency Preparedness Training
+    description: Teaching individuals and communities how to prepare for disasters such as fires, earthquakes, floods, and severe weather events. 
+  - title: CPR and First Aid Training
+    description: Offering hands-on courses in life-saving techniques to increase survival rates in emergencies. 
+  - title: Community Risk Reduction (CRR) Programs
+    description: Identifying risks specific to the community and implementing proactive safety measures. 
+  - title: School and Youth Outreach
+    description: Engaging children and young adults through fire safety drills, interactive learning sessions, and career exploration. 
+  - title: Smoke Alarm Assistance
+    description: Installing or inspecting smoke detectors and providing guidance on home fire safety.  
+  - title: Disaster Preparedness Partnerships
+    description: Collaborating with local agencies, organizations, and businesses to strengthen emergency response capabilities. 
+  - title: Fire Drills and Evacuation Planning
+    description: Assisting businesses and residential communities in developing and practicing evacuation procedures. 
+  - title: Wildfire Preparedness Programs
+    description: Educating residents in high-risk areas on defensible space, fire-resistant landscaping, and evacuation planning. 
+  - title: Community Emergency Response Teams (CERT)
+    description: Training volunteers to support first responders during disasters and provide assistance to neighbors. 

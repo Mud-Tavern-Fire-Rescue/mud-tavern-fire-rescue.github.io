@@ -13,16 +13,21 @@ permalink: /community/newsletter
   <section class="mainText">
     <div class="row justify-content-center">
       <div class="col-xl-10 col-md-10 col-sm-11">
-        <h3>DONATE</h3>
-        <p>Mud Tavern Volunteer Fire and Rescue is 100% volunteer and we appreciate your donations!</p>
+        {% comment %} <h3>{{  page.title  | uppercase  }}</h3> {% endcomment %}
+        {% comment %} <p>Mud Tavern Volunteer Fire and Rescue is 100% volunteer and we appreciate your donations!</p> {% endcomment %}
       </div>
     </div>
     <div class="row justify-content-center">
-      <div class="col-xl-10 col-md-10 col-sm-11">
+      {% comment %} <div class="col-xl-10 col-md-10 col-sm-11">
       <a href="https://mtvfr.betterworld.org/donate" target="_blank">
         <img src="/assets/images/campaigndonate.png" class="img-fluid" alt="donate">
         <h4 style="margin-top: 1em;">Visit our BetterWorld page to donate online!</h4>
       </a>
+      </div> {% endcomment %}
+      <div class="col-xl-12">
+        <iframe
+          src="{{ site.data.misc_ref.newsletter_iframe_url }}"
+          width="100%" height="1500" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
       </div>
     </div>
     <div class="col-xl-6">&nbsp;</div>
