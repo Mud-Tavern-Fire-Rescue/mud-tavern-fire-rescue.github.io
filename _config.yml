@@ -47,6 +47,7 @@ exclude:
   - feeling-responsive/
   - docker-compose.yml
   - README.md
+  - CLAUDE.md
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/
