@@ -36,6 +36,12 @@
 - title: Donate
   url: "/donate"
 
+- title: Members
+  url: "#"
+  sublinks:
+    - title: Equipment Checks
+      url: https://checks.mudtavernfire.org
+
 # - title: Contact Us
 #   url: "/contact"
 
